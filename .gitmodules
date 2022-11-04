@@ -1,0 +1,63 @@
+[submodule "submodules/c_ansi"]
+	path = submodules/c_ansi
+	url = https://github.com/binRick/c_ansi
+[submodule "submodules/b64"]
+	path = submodules/b64
+	url = https://github.com/littlstar/b64.c
+[submodule "submodules/b64.c"]
+	path = submodules/b64.c
+	url = https://github.com/littlstar/b64.c
+[submodule "submodules/c_fsio"]
+	path = submodules/c_fsio
+	url = https://github.com/sagiegurari/c_fsio
+[submodule "submodules/c_string_buffer"]
+	path = submodules/c_string_buffer
+	url = https://github.com/sagiegurari/c_string_buffer
+[submodule "submodules/c_stringfn"]
+	path = submodules/c_stringfn
+	url = https://github.com/sagiegurari/c_stringfn
+[submodule "submodules/c_workqueue"]
+	path = submodules/c_workqueue
+	url = https://github.com/sagiegurari/c_workqueue
+[submodule "submodules/bytes"]
+	path = submodules/bytes
+	url = https://github.com/clibs/bytes
+[submodule "submodules/c_vector"]
+	path = submodules/c_vector
+	url = https://github.com/binRick/c_vector
+[submodule "submodules/hash"]
+	path = submodules/hash
+	url = https://github.com/clibs/hash
+[submodule "submodules/c_greatest"]
+	path = submodules/c_greatest
+	url = https://github.com/binRick/c_greatest
+[submodule "submodules/c_log"]
+	path = submodules/c_log
+	url = https://github.com/binRick/c_log
+[submodule "submodules/ms"]
+	path = submodules/ms
+	url = https://github.com/clibs/ms
+[submodule "submodules/timestamp"]
+	path = submodules/timestamp
+	url = https://github.com/clibs/timestamp
+[submodule "submodules/asprintf"]
+	path = submodules/asprintf
+	url = https://github.com/littlstar/asprintf.c
+[submodule "submodules/asprintf.c"]
+	path = submodules/asprintf.c
+	url = https://github.com/littlstar/asprintf.c
+[submodule "submodules/c_darwin"]
+	path = submodules/c_darwin
+	url = ssh://git@github.com/binRick/c_darwin
+[submodule "submodules/c_deps"]
+	path = submodules/c_deps
+	url = ssh://git@github.com/binRick/c_deps
+[submodule "submodules/chan"]
+	path = submodules/chan
+	url = https://github.com/tylertreat/chan
+[submodule "submodules/tempdir.c"]
+	path = submodules/tempdir.c
+	url = https://github.com/stephenmathieson/tempdir.c
+[submodule "submodules/strdup"]
+	path = submodules/strdup
+	url = https://github.com/clibs/strdup
