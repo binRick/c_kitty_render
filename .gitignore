@@ -1,2 +1,4 @@
 submodules/log
 build
+.cache
+o

@@ -1,6 +1,6 @@
-#include "assets/assets.h"
 #include "ansi-codes/ansi-codes.h"
 #include "assets-test/assets-test.h"
+#include "assets/assets.h"
 #include "bytes/bytes.h"
 #include "c_fsio/include/fsio.h"
 #include "c_greatest/greatest/greatest.h"
@@ -18,11 +18,11 @@ TEST t_assets_test2(){
 TEST t_assets_test1(){
   log_info("assets 1");
   log_info("size: %d",
-      inc_kitty_icon_gif_size
-      );
+           inc_kitty_icon_gif_size
+           );
   log_info("size: %s",
-      bytes_to_string(inc_kitty_icon_gif_size)
-      );
+           bytes_to_string(inc_kitty_icon_gif_size)
+           );
   PASS();
 }
 

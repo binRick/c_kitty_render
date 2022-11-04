@@ -35,4 +35,7 @@ entr-files: _entr-files
 entr:
 	env bash +e -xc "while :; do env SHELL=/usr/local/bin/bash entr -r -c -s 'make -B build && sleep 0' < <(make entr-files); sleep 1; done"
 
+tidy:
+	make -s -B entr-files|egrep -v 'submodules|subprojects'|xargs -I % uncrustify -c etc/uncrustify.cfg --replace --no-backup %
+
 

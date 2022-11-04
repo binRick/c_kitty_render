@@ -34,5 +34,8 @@ static void __attribute__((constructor)) __constructor__assets(void){
   }
 }
 ////////////////////////////////////////////
+static struct kitty_asset_t *get_kitty_assets(){
+  return(NULL);
+}
 #undef LOCAL_DEBUG_MODE
 #endif
