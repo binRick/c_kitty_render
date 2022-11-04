@@ -61,3 +61,6 @@
 [submodule "submodules/strdup"]
 	path = submodules/strdup
 	url = https://github.com/clibs/strdup
+[submodule "submodules/incbin"]
+	path = submodules/incbin
+	url = https://github.com/graphitemaster/incbin
